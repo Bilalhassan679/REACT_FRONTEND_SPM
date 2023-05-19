@@ -5,7 +5,7 @@ import { documentTitle } from '../utils/title';
 const Signup = () => {
 
     // page title 
-    documentTitle("Register")
+    documentTitle("Create an account")
 
     return (
         <Layout>
