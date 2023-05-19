@@ -1,17 +1,19 @@
-import React from 'react';
-import Layout from '../layout';
-import {documentTitle} from '../utils/title';
+import React from "react";
+import Layout from "../layout";
+import { documentTitle } from "../utils/title";
 
 const Login = () => {
-
-  // page title 
+  // page title
   documentTitle("Login");
 
   return (
     <Layout>
-        <h1>Login</h1>
+      <p className="mx-16 my-16 text-xl font-bold text-green-600 cursor-pointer">
+        Configure Tailwind CSS with React.JS
+      </p>
+      <h1>Login</h1>
     </Layout>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
